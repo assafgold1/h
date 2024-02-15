@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>הדרך החדשה להיות נהג חדש</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.18.1/video-js.min.css" rel="stylesheet">
+  <link rel="manifest" crossorigin="use-credentials" href="/public/src/favicon/site.webmanifest">
+  <!--<link rel="stylesheet" href="css/darkmodeindex.css"-->
+  <link rel="shortcut icon" href="/public/src/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/q.css">
+  <link rel="stylesheet" href="css/loading.css">
+  <link rel="stylesheet" href="css/bmain.css">
+   <!--<script src="/public/js/darkmodetoggle.js"></script-->
+  <script src="/public/js/googleads.js"></script>
+  <script src="/public/js/q.js"></script>
+ <script src="/public/js/loading.js"></script>
+ <!-- <meta name="google-adsense-account" content="ca-pub-1675040212010854">-->
+</head>
+<body>
+  <style>
+    /* Your existing styles */
+/* Add dark mode styles inside the .dark-mode class */
+.dark-mode body {
+  background-color: #424242;
+  color: #ffffff;
+}
+
+.dark-mode .container {
+  background-color: #212121;
+  color: #ffffff;
+  border: 1px solid #424242;
+}
+
+.dark-mode .video-container {
+  background-color: #424242;
+}
+
+.dark-mode footer {
+  background-color: #212121;
+  color: #ffffff;
+  border-top: 1px solid #424242;
+}
+
+.dark-mode .image-text {
+  color: #ffffff;
+}
+
+/* Toggle button styles */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 51px;
+  height: 29px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff2b;
+  border-radius: 100px;
+  padding: 1px;
+  transition: background-color 0.2s ease;
+}
+
+.slider::after {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  top: 2.3px;
+  left: 2px;
+  transition: transform 0.3s ease;
+}
+
+input:checked + .slider {
+  background-color: #22cc3f;
+}
+
+input:checked + .slider::after {
+  transform: translateX(22px);
+}
+
+input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+  </style>
+  <div id="loading-overlay">
+    <div class="loading-spinner"></div>
+    <p>Loading...</p>
+  </div>  
+  <header>
+    <h1>הדרך החדשה להיות נהג חדש</h1>
+    <label class="inline-flex items-center cursor-pointer">
+      <input type="checkbox" value="" id="darkModeToggle" class="sr-only peer">
+      <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+      <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Toggle me</span>
+    </label>
+  
+  </header>
+  <div class="container">
+    <div id="videos">
+      <ul>
+        <h4>תמרורים</h4>
+        <li><a href="https://drive.google.com/file/d/1OTtnXxqjxJPJ1BFlQ8zlGcDwS5DExDzb/view?usp=drive_link">תמרורי אזהרה </a></li>
+        <li><a href="https://drive.google.com/file/d/1gY2kQgZYwGp0JtHJwfnS8UljK6eTPY0m/view?usp=drive_link">תמרורי הוריה</a></li>
+        <li><a href="https://drive.google.com/file/d/1z3LkXebGVyEVJfhv8jYLvYWmOB0jeif_/view?usp=drive_link">זכות הקדימה</a></li>
+        <li><a href="https://drive.google.com/file/d/12gVqSOHKNSjLGA7TmqPOjrCKFe4-F61G/view?usp=drive_link">תמרורי איסורים והגבלות</a></li>
+        <li><a href="https://drive.google.com/file/d/1z3LkXebGVyEVJfhv8jYLvYWmOB0jeif_/view?usp=drive_link">תמרורי תחבורה ציבורית</a></li>
+        <li><a href="https://drive.google.com/file/d/1eFmfQhIo4jYQ4siWNoL_g9n-7fdle175/view?usp=sharing">תמרורי מודיעין והדרכה</a></li>
+        <li><a href="https://drive.google.com/file/d/1XzjIDXW2m9LUWIainRC5B8qhOJlGWm0Z/view?usp=sharing">תמרורי רמזורים ובקרת נתיבים</a></li>
+        <li><a href="https://drive.google.com/file/d/1eFIJXo92ymcuab5LTy82SVQ3e9IxCJPz/view?usp=sharing">סימונים על פני הדרך</a></li>
+        <li><a href="https://drive.google.com/file/d/1wo0uH5W0rB5cKQBVBUtIlgey4CQwXICt/view?usp=sharing">תמרורי עבודות בדרך</a></li>
+        <li><a href="https://drive.google.com/file/d/1qxLNZ1Z0rLrOPpSfKgDvl6V49gfxT-U4/view?usp=sharing">סמלים</a></li>
+        <h4>הכרת הרכב</h4>
+        <li><a href="https://drive.google.com/file/d/18E46Fa-eAvimf28mnoDnU29XaGbwk9hU/view?usp=sharing">הכרת הרכב</a></li>
+        <li><a href="https://drive.google.com/file/d/1xZjaQwF-3tHDYDnuJGnypnjaXjvEcHtt/view?usp=sharing">צמיגים ולוח מכוונים</a></li>
+        <li><a href="https://drive.google.com/file/d/1V-32Jl8mvwEZiFUK1UftWgN65yqRUgCF/view?usp=sharing">מערכות בטיחות ברכב</a></li>
+        <li><a href="https://drive.google.com/file/d/1s_ZQosAkRZSo3pggaR_Tgk43U0gcb3bd/view?usp=sharing">פסילות</a></li>
+        <h4>חוקי תנועה</h4>
+        <li><a href="https://drive.google.com/file/d/1fAiLPtzM6DbEPctFiDB4MloKi0iZLix7/view?usp=drive_link">חוקי תנועה</a></li>
+        <li><a href="https://drive.google.com/file/d/1fAiLPtzM6DbEPctFiDB4MloKi0iZLix7/view?usp=drive_link">תקנות תעבורה</a></li>
+        <li><a href="https://drive.google.com/file/d/1JJ38rB3YQCYDEfCYVHefSDfKCAoMSh24/view?usp=sharing">זכויות קדימה ואיסורי נהיגה</a></li>
+        <li><a href="https://drive.google.com/file/d/1ycqcsh8Va-_0y-1Mqmttqoe_QI2dqXUl/view?usp=sharing">פניות ימינה ושמאלה</a></li>
+        <li><a href="https://drive.google.com/file/d/1n_TWeQpY8ZzowjYjLT2Gs-sPpeUm6g3B/view?usp=sharing">פרסה ועקיפה</a></li>
+        <li><a href="https://drive.google.com/file/d/1Hz5F5TDQ99UM4b4_ymVMsov7yNTNLDbr/view?usp=sharing">חניה ומהירות סבירה</a></li>
+        <h4>בטיחות</h4>
+        <li><a href="https://drive.google.com/file/d/1AVJNFYv7YPnDLKahXKFfELwjaVKczELz/view?usp=sharing">בטיחות</a></li>
+        <li><a href="https://drive.google.com/file/d/1AVJNFYv7YPnDLKahXKFfELwjaVKczELz/view?usp=sharing">שמירת מרחק</a></li>
+        <li><a href="https://drive.google.com/file/d/17ct9EgkzXiCVQt0wUoCLpAPTeLh7I_LT/view?usp=sharing">כניסה לצומת</a></li>
+        <li><a href="https://drive.google.com/file/d/10fUmIKs30BDsvsbJOPq7dPMsWCYMypoH/view?usp=sharing">ירידה ועליה לשוליים</a></li>
+        <li><a href="https://drive.google.com/file/d/1G6WrP_FU4w81lH6tvbiLBiJ77UqNObP7/view?usp=sharing">נהיגה בדרך הררית</a></li>
+        <li><a href="https://drive.google.com/file/d/1EVDbjM0nRfWykMhUHSiDxQDjccesrdm3/view?usp=sharing">נהיגה בטוחה בתנאים מכבידים</a></li>
+        <h4>סיכום</h4>
+        <li><a href="https://drive.google.com/file/d/1YgsWg-5uhEeRE2fyoHZ38r5LxjBKzFHv/view?usp=sharing">טיפים לבחינה</a></li>
+      </ul>  <section>
+    <h1 class="cocina">לוח תמרורים</h1>
+    <div class="image-gallery">
+    <div class="image-container">
+      <div class="image-text">תמרורי אזהרה</div>
+      <img src="src/img/3.png" alt="תמרורי אזהרה">
+    </div>
+    <div class="image-container">
+      <div class="image-text">תמרורי הוריה</div>
+      <img src="src/img/1.png" alt="תמרורי הוריה">
+    </div>
+    <div class="image-container">
+      <div class="image-text">תמרורי מתן זכות קדימה</div>
+      <img src="src/img/4.png" alt="תמרורי מתן זכות קדימה">
+    </div>
+    <div class="image-container">
+      <div class="image-text">תמרורי הוריה</div>
+      <img src="src/img/5.png" alt="תמרורי הוריה">
+    </div>
+    <div class="image-container">
+      <div class="image-text">תמרורי תחבורה ציבורית</div>
+      <img src="src/img/6.png" alt="תמרורי תחבורה ציבורית">
+    </div>
+    <div class="image-container">
+      <div class="image-text">תמרורי מודיעין</div>
+      <img src="src/img/7.png" alt="תמרורי מודיעין">
+    </div>
+    <div class="image-container">
+      <div class="image-text"></div>
+      <img src="" alt="">
+    </div>
+    <div class="image-container">
+      <div class="image-text">תמרורי רמזורים ובקרת נתיבים</div>
+      <img src="src/img/8.png" alt="תמרורי רמזורים ובקרת נתיבים">
+    </div>
+    <div class="image-container">
+      <div class="image-text">סימונים על פני הכביש</div>
+      <img src="src/img/9.png" alt="סימונים על פני הכביש">
+    </div>
+    <div class="image-container">
+      <div class="image-text">עבודות בדרך</div>
+      <img src="src/img/10.png" alt="">
+    </div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1675040212010854"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-1675040212010854"
+     data-ad-slot="1260974101">
+</ins>
+</section> 
+<h2>שאלות</h2>
+<div class="question" id="question"> שאלה?</div>
+<img src="" alt="תמונה של השאלה" class="question-image" id="questionImage">
+<div class="options" id="options">
+    <!-- Options will be added dynamically -->
+</div>
+<div class="feedback" id="feedback"></div>
+<div class="explanation" id="explanation"></div>
+<div class="id" id="id"></div>
+<button class="next-btn" id="nextBtn" style="display: none;" onclick="nextQuestion()">שאלה הבאה</button>
+<div class="score" id="score">ניקוד: 0</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const darkModeToggle = document.querySelector('.peer');
+
+    darkModeToggle.addEventListener('change', () => {
+        const body = document.body;
+        if (darkModeToggle.checked) {
+            body.classList.add('dark-mode');
+        } else {
+            body.classList.remove('dark-mode');
+        }
+    });
+});
+
+</script>
+</body>
+</html>
+
+
+
+

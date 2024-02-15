@@ -1,0 +1,88 @@
+/* שאלה */
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333; /* Improved readability */
+  }
+  
+  /* תמונת שאלה */
+  .question-image {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* אפשרויות */
+  .options {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .options li {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .options li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* משוב */
+  .feedback {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* הסבר */
+  .explanation {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light background for clarity */
+  }
+  
+  /* מספר שאלה */
+  .id {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #777;
+  }
+  
+  /* כפתור שאלה הבאה */
+  .next-btn {
+    margin: 20px auto; /* Increased margin for better spacing */
+    padding: 12px 24px; /* Increased padding for better clickability */
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .next-btn:hover {
+    background-color: #e0e0e0; /* Darker background on hover */
+  }
+  
+  /* ניקוד */
+  .score {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    color: #555; /* Improved visibility */
+  }
+  
